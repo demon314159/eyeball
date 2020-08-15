@@ -55,7 +55,7 @@ The app is notified when any of the files are changed and will always render the
 
 ## high rate
 The application is very reliable at frame rates of 3Hz or less.
-When the Auto Imaage Frequency is selected on the camera, the frame rate will rise to around 10 frames per second.  The application can handle this frame rate but there are periods of time where the FTP process shuts down for anywhere from 3 seconds to 20 seconds.
+When the Auto Image Frequency is selected on the camera, the frame rate will rise to around 10 frames per second.  The application can handle this frame rate but there are periods of time where the FTP process shuts down for anywhere from 3 seconds to 20 seconds.
 
 The process seems to always heal itself and recover.
 
