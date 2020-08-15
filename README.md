@@ -48,7 +48,7 @@ When the FTP is running, it sends a series of JPG images to the ramdisk, overwri
 * DCS-930L4.JPG
 
 ## eyeball
-Eyeball is a Qt program, so run `qmake eyeball.pro' to generate the Makefile, then run `make`.
+Eyeball is a Qt program, so run `qmake eyeball.pro` to generate the Makefile, then run `make`.
 
 Run the eyeball app by typing `./eyeball`
 The app is notified when any of the files are changed and will always render the last completed image.
