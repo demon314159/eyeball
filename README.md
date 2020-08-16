@@ -1,5 +1,5 @@
 # eyeball
-**Bringing an obsolete web-cam bak to life**
+**Bringing an obsolete web-cam back to life**
 
 ## Introduction
 The DCS-930L camera from 2010 is no longer supported by web browsers because they have dropped support for ActiveX and java NPAPI.
