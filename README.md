@@ -10,8 +10,8 @@ However, the camera still supports FTP, so it can push images onto a file system
 In order to save wear and tear on the hard disk, a RAM Disk is set up and mounted and that is the target of the FTP.  Images will typically arrive at a rate of 3 per second, but there is a less reliable mode where up to 12 frames are sent per second.
 
 To mount the RAM Disk file system:
-* `sudo mkdir /mnt/ramdisk/Pictures`
-* `sudo mount -t tmpfs -o size=4m tmpfs /mnt/ramdisk`
+* `sudo mkdir -p /mnt/ramdisk/Pictures`
+* `sudo mount -t tmpfs -o size=4m tmpfs /mnt/ramdisk/Pictures`
 
 ## Setting up Camera
 The Camera FTP settings:
